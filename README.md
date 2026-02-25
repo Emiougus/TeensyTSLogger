@@ -1,3 +1,5 @@
+# Currently only tested on EpicEFi firmware from 2025 Sep/should work with other RusEFI and other versions of EpicEFI but output channel block size might be different and cause errors
+
 # TeensyTSLogger
 
 A standalone data logger for ECUs using Tunerstudio protocols built on a **Teensy 4.1**. It connects to the ECU over USB host, reads output channels via the TunerStudio binary protocol, and writes log files directly to an SD card in MegaLogViewer `.msl` format — no laptop required.
